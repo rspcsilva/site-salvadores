@@ -1,0 +1,40 @@
+.thank-you-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 80px; /* Aumentar o padding */
+    width: 800px; /* Largura do container */
+    margin: 0 auto; /* Centraliza o container na página */
+    margin-bottom: 20px; /* Espaço abaixo do container */
+    background: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+    border-radius: 10px; /* Bordas arredondadas */
+    color: #f5f5f5; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+.text {
+    font-size: 36px; /* Tamanho da fonte maior para o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.paragrafo {
+    font-size: 18px; /* Tamanho da fonte do parágrafo */
+    margin-bottom: 30px; /* Espaço abaixo do parágrafo */
+}
+
+.btn {
+    padding: 15px 25px; /* Aumenta o padding do botão */
+    background-color: #4caf50; /* Cor de fundo do botão */
+    color: #f5f5f5; /* Cor do texto do botão */
+    border: none; /* Remove a borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+}
+
+.btn:hover {
+    background-color: #76ff03; /* Verde mais claro ao passar o mouse */
+    transform: translateY(-2px); /* Eleva o botão um pouco ao passar o mouse */
+}
